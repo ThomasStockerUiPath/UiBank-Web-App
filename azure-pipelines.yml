@@ -5,7 +5,8 @@ pool:
 
   vmImage: "vs2017-win2016"
 
-steps:  - task: PowerShell@2
+steps:  
+- task: PowerShell@2
      inputs:
        targetType: 'inline'
        script: |
