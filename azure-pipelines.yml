@@ -5,6 +5,8 @@ pool:
 
   vmImage: "vs2017-win2016"
 
+steps:
+
 - task: UiPathInstallPlatform-preview@2
 
 - task: UiPathTest@2
