@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "1.0.58723932",
+  "projectVersion": "1.0.60685058",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -39,162 +39,162 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "63db059e-8fae-478b-b945-d9ee129e4209",
-        "fileName": "Test Cases\\Component D\\Try to register existing user.xaml"
+        "fileName": "Test Cases\\Try to register existing user.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d47670d7-f1d6-4dd7-abb2-d177fc54b704",
-        "fileName": "Test Cases\\Component D\\Register new user.xaml"
+        "fileName": "Test Cases\\Register new user.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "4c53162b-d205-4f2d-ba6d-292586327bc6",
-        "fileName": "Test Cases\\Component D\\Login.xaml"
+        "fileName": "Test Cases\\Login.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "91d0956b-ad2a-4438-b8c0-ec00d8987de7",
-        "fileName": "Test Cases\\Component D\\Try Login unregistered user.xaml"
+        "fileName": "Test Cases\\Try Login unregistered user.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d5412a8b-a79a-47bd-849e-e86cca3004d5",
-        "fileName": "Test Cases\\Component D\\Forgot Password.xaml"
+        "fileName": "Test Cases\\Forgot Password.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "5381d77e-eb15-4450-8051-0e8031900013",
-        "fileName": "Test Cases\\Component A\\Apply for Credit Card.xaml"
+        "fileName": "Test Cases\\Apply for Credit Card.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d0dcbd84-1b81-424f-b2dc-519d92d25a02",
-        "fileName": "Test Cases\\Component D\\Loan Lookup.xaml"
+        "fileName": "Test Cases\\Loan Lookup.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "0ef1a070-0a9c-403b-b390-a1c808c5b248",
-        "fileName": "Test Cases\\Component B\\Apply for low volume Loan.xaml"
+        "fileName": "Test Cases\\Apply for low volume Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "05287419-f868-4769-9934-e316ae2b6630",
-        "fileName": "Test Cases\\Component A\\Apply for high income Loan.xaml"
+        "fileName": "Test Cases\\Apply for high income Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "f805180a-c608-42f0-a6eb-9bcefac7ba82",
-        "fileName": "Test Cases\\Component B\\Apply for low income Loan.xaml"
+        "fileName": "Test Cases\\Apply for low income Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "bf88a376-0500-4275-b98f-1a41972b1890",
-        "fileName": "Test Cases\\Component B\\Apply for old age Loan.xaml"
+        "fileName": "Test Cases\\Apply for old age Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "55d91292-1e09-4f23-ad1f-eaf9318e7148",
-        "fileName": "Test Cases\\Component B\\Apply for underage Loan.xaml"
+        "fileName": "Test Cases\\Apply for underage Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "143403a7-8807-45a1-838e-0db3dbdec88d",
-        "fileName": "Test Cases\\Component B\\Apply for long term Loan.xaml"
+        "fileName": "Test Cases\\Apply for long term Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "2a15253b-7b82-4705-b1fc-d8e0265c98b5",
-        "fileName": "Test Cases\\Component B\\Apply for short term Loan.xaml"
+        "fileName": "Test Cases\\Apply for short term Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "1cbb27f6-462a-4798-abb3-2f205f67ebff",
-        "fileName": "Test Cases\\Component A\\Apply for high volume Loan.xaml"
+        "fileName": "Test Cases\\Apply for high volume Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "8c8eaee5-c69d-4a74-8671-1dd0e5e0a389",
-        "fileName": "Test Cases\\Component A\\Apply for Loan.xaml"
+        "fileName": "Test Cases\\Apply for Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "be927c8f-1413-49a9-b24b-f275a9fa20c5",
-        "fileName": "Test Cases\\Component B\\Apply for Travel Rewards Card.xaml"
+        "fileName": "Test Cases\\Apply for Travel Rewards Card.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "9d90ee01-57cc-417a-9130-dee2c045977e",
-        "fileName": "Test Cases\\Component A\\Apply for Cash Back Rewards Card.xaml"
+        "fileName": "Test Cases\\Apply for Cash Back Rewards Card.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "fc363200-c4f5-4e83-95a5-2d42a6c793b0",
-        "fileName": "Test Cases\\Component B\\Apply for Treat to self Rewards Card.xaml"
+        "fileName": "Test Cases\\Apply for Treat to self Rewards Card.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "80a6e2f9-cfe8-4b4c-9790-51f6336eb444",
-        "fileName": "Test Cases\\Component A\\Apply for Debit Card.xaml"
+        "fileName": "Test Cases\\Apply for Debit Card.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "24c51ce7-ba0c-49bf-b79b-46347f6da04e",
-        "fileName": "Test Cases\\Component C\\Create Bank Account.xaml"
+        "fileName": "Test Cases\\Create Bank Account.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "7bd8bb10-3d55-41ef-ace9-d045bfa9467c",
-        "fileName": "Test Cases\\Component C\\Create User.xaml"
+        "fileName": "Test Cases\\Create User.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "f0a81426-0995-43da-a8fe-684221912207",
-        "fileName": "Test Cases\\Component D\\Delete User.xaml"
+        "fileName": "Test Cases\\Delete User.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "a738c419-6290-4ed3-a9d5-3dd2a7f00c56",
-        "fileName": "Test Cases\\Component C\\Create Account.xaml"
+        "fileName": "Test Cases\\Create Account.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "35ae9456-2e26-4adb-9fda-cb301dea95f7",
-        "fileName": "Test Cases\\Component C\\Delete Account.xaml"
+        "fileName": "Test Cases\\Delete Account.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "a661d09c-2f0a-45b2-b070-d0a55b2a694e",
-        "fileName": "Test Cases\\Component D\\New Transaction.xaml"
+        "fileName": "Test Cases\\New Transaction.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "fa5c3f41-0635-4241-acde-659c68d7a0cf",
-        "fileName": "Test Cases\\Component C\\Delete Quote.xaml"
+        "fileName": "Test Cases\\Delete Quote.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "c320482f-7c37-404f-84cd-ddcaadc39d1e",
-        "fileName": "Test Cases\\Component D\\Login Invalid User.xaml"
+        "fileName": "Test Cases\\Login Invalid User.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "733dc613-42b8-4de5-ae2d-b7c483f232d6",
-        "fileName": "Test Cases\\Component C\\Credit Card denied.xaml"
+        "fileName": "Test Cases\\Credit Card denied.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "6703b2ee-8002-4929-8e10-4f60d809b220",
-        "fileName": "Test Cases\\Component C\\Create Savings Account.xaml"
+        "fileName": "Test Cases\\Create Savings Account.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "1521de21-9285-4506-9300-23291d8d308f",
-        "fileName": "Test Cases\\Component C\\Create Checking Account.xaml"
+        "fileName": "Test Cases\\Create Checking Account.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "5a4da15a-6f19-4c36-a7b9-b2f135216641",
-        "fileName": "Test Cases\\Component B\\Contact UiBank.xaml"
+        "fileName": "Test Cases\\Contact UiBank.xaml"
       }
     ],
     "modernBehavior": false
@@ -202,193 +202,193 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Test Cases\\Component D\\Try to register existing user.xaml",
+      "filePath": "Test Cases\\Try to register existing user.xaml",
       "uniqueId": "63db059e-8fae-478b-b945-d9ee129e4209",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Register new user.xaml",
+      "filePath": "Test Cases\\Register new user.xaml",
       "uniqueId": "d47670d7-f1d6-4dd7-abb2-d177fc54b704",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Login.xaml",
+      "filePath": "Test Cases\\Login.xaml",
       "uniqueId": "4c53162b-d205-4f2d-ba6d-292586327bc6",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Try Login unregistered user.xaml",
+      "filePath": "Test Cases\\Try Login unregistered user.xaml",
       "uniqueId": "91d0956b-ad2a-4438-b8c0-ec00d8987de7",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Forgot Password.xaml",
+      "filePath": "Test Cases\\Forgot Password.xaml",
       "uniqueId": "d5412a8b-a79a-47bd-849e-e86cca3004d5",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for Credit Card.xaml",
+      "filePath": "Test Cases\\Apply for Credit Card.xaml",
       "uniqueId": "5381d77e-eb15-4450-8051-0e8031900013",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Loan Lookup.xaml",
+      "filePath": "Test Cases\\Loan Lookup.xaml",
       "uniqueId": "d0dcbd84-1b81-424f-b2dc-519d92d25a02",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for low volume Loan.xaml",
+      "filePath": "Test Cases\\Apply for low volume Loan.xaml",
       "uniqueId": "0ef1a070-0a9c-403b-b390-a1c808c5b248",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for high income Loan.xaml",
+      "filePath": "Test Cases\\Apply for high income Loan.xaml",
       "uniqueId": "05287419-f868-4769-9934-e316ae2b6630",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for low income Loan.xaml",
+      "filePath": "Test Cases\\Apply for low income Loan.xaml",
       "uniqueId": "f805180a-c608-42f0-a6eb-9bcefac7ba82",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for old age Loan.xaml",
+      "filePath": "Test Cases\\Apply for old age Loan.xaml",
       "uniqueId": "bf88a376-0500-4275-b98f-1a41972b1890",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for underage Loan.xaml",
+      "filePath": "Test Cases\\Apply for underage Loan.xaml",
       "uniqueId": "55d91292-1e09-4f23-ad1f-eaf9318e7148",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for long term Loan.xaml",
+      "filePath": "Test Cases\\Apply for long term Loan.xaml",
       "uniqueId": "143403a7-8807-45a1-838e-0db3dbdec88d",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for short term Loan.xaml",
+      "filePath": "Test Cases\\Apply for short term Loan.xaml",
       "uniqueId": "2a15253b-7b82-4705-b1fc-d8e0265c98b5",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for high volume Loan.xaml",
+      "filePath": "Test Cases\\Apply for high volume Loan.xaml",
       "uniqueId": "1cbb27f6-462a-4798-abb3-2f205f67ebff",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for Loan.xaml",
+      "filePath": "Test Cases\\Apply for Loan.xaml",
       "uniqueId": "8c8eaee5-c69d-4a74-8671-1dd0e5e0a389",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for Travel Rewards Card.xaml",
+      "filePath": "Test Cases\\Apply for Travel Rewards Card.xaml",
       "uniqueId": "be927c8f-1413-49a9-b24b-f275a9fa20c5",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for Cash Back Rewards Card.xaml",
+      "filePath": "Test Cases\\Apply for Cash Back Rewards Card.xaml",
       "uniqueId": "9d90ee01-57cc-417a-9130-dee2c045977e",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Apply for Treat to self Rewards Card.xaml",
+      "filePath": "Test Cases\\Apply for Treat to self Rewards Card.xaml",
       "uniqueId": "fc363200-c4f5-4e83-95a5-2d42a6c793b0",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component A\\Apply for Debit Card.xaml",
+      "filePath": "Test Cases\\Apply for Debit Card.xaml",
       "uniqueId": "80a6e2f9-cfe8-4b4c-9790-51f6336eb444",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Create Bank Account.xaml",
+      "filePath": "Test Cases\\Create Bank Account.xaml",
       "uniqueId": "24c51ce7-ba0c-49bf-b79b-46347f6da04e",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Create User.xaml",
+      "filePath": "Test Cases\\Create User.xaml",
       "uniqueId": "7bd8bb10-3d55-41ef-ace9-d045bfa9467c",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Delete User.xaml",
+      "filePath": "Test Cases\\Delete User.xaml",
       "uniqueId": "f0a81426-0995-43da-a8fe-684221912207",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Create Account.xaml",
+      "filePath": "Test Cases\\Create Account.xaml",
       "uniqueId": "a738c419-6290-4ed3-a9d5-3dd2a7f00c56",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Delete Account.xaml",
+      "filePath": "Test Cases\\Delete Account.xaml",
       "uniqueId": "35ae9456-2e26-4adb-9fda-cb301dea95f7",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\New Transaction.xaml",
+      "filePath": "Test Cases\\New Transaction.xaml",
       "uniqueId": "a661d09c-2f0a-45b2-b070-d0a55b2a694e",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Delete Quote.xaml",
+      "filePath": "Test Cases\\Delete Quote.xaml",
       "uniqueId": "fa5c3f41-0635-4241-acde-659c68d7a0cf",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component D\\Login Invalid User.xaml",
+      "filePath": "Test Cases\\Login Invalid User.xaml",
       "uniqueId": "c320482f-7c37-404f-84cd-ddcaadc39d1e",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Credit Card denied.xaml",
+      "filePath": "Test Cases\\Credit Card denied.xaml",
       "uniqueId": "733dc613-42b8-4de5-ae2d-b7c483f232d6",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Create Savings Account.xaml",
+      "filePath": "Test Cases\\Create Savings Account.xaml",
       "uniqueId": "6703b2ee-8002-4929-8e10-4f60d809b220",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component C\\Create Checking Account.xaml",
+      "filePath": "Test Cases\\Create Checking Account.xaml",
       "uniqueId": "1521de21-9285-4506-9300-23291d8d308f",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Test Cases\\Component B\\Contact UiBank.xaml",
+      "filePath": "Test Cases\\Contact UiBank.xaml",
       "uniqueId": "5a4da15a-6f19-4c36-a7b9-b2f135216641",
       "input": [],
       "output": []
