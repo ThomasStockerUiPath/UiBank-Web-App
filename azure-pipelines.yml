@@ -5,6 +5,10 @@ pool:
 
   vmImage: "vs2017-win2016"
 
+variables:
+- name: variable
+  value: False 
+
 steps:  
 
 
@@ -16,11 +20,15 @@ steps:
       $editedFiles = git diff HEAD HEAD~ --name-only
       $editedFiles | ForEach-Object {
     Switch -Wildcard ($_ ) {
-        'SubFolderA/*' { Write-Output "##vso[task.setvariable variable=MicroserviceA]True" }
-        # The rest of your path filters
-    }
+        'SubFolderA/*' { Write-Output "##vso[task.setvariable variable=variable]True" }}
+  
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
       Write-Host "Hello World"
-
 
 - task: UiPathInstallPlatform-preview@2
 
