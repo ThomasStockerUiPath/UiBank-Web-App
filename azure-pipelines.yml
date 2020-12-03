@@ -16,11 +16,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      # Write your PowerShell commands here.
+    
       $editedFiles = git diff HEAD HEAD~ --name-only
-      $editedFiles | ForEach-Object {
-    Switch -Wildcard ($_ ) {
-        'SubFolderA/*' { Write-Output "##vso[task.setvariable variable=variable]True" }}}
+      $editedFiles | ForEach-Object {Switch -Wildcard ($_ ) {'SubFolderA/*' { Write-Output "##vso[task.setvariable variable=variable]True" }}}
 
 - task: UiPathInstallPlatform-preview@2
 
