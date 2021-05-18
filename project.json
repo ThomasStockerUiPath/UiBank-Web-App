@@ -3,15 +3,16 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.MobileAutomation.Activities": "[20.10.5]",
     "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.Testing.Activities": "[1.3.0-alpha.1491317]",
     "UiPath.UIAutomation.Activities": "[20.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "1.0.60701764",
+  "projectVersion": "1.0.75028796",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -104,6 +105,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "2a15253b-7b82-4705-b1fc-d8e0265c98b5",
+        "dataVariationFilePath": ".variations\\VehicleInsuranceData_Vehicle Data_5.json",
         "fileName": "Test Cases\\Apply for short term Loan.xaml"
       },
       {
@@ -114,7 +116,8 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "8c8eaee5-c69d-4a74-8671-1dd0e5e0a389",
-        "fileName": "Test Cases\\Apply for Loan.xaml"
+        "dataVariationFilePath": ".variations\\VehicleInsuranceData_Vehicle Data_3.json",
+        "fileName": "DDT\\Apply for Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -124,6 +127,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "9d90ee01-57cc-417a-9130-dee2c045977e",
+        "dataVariationFilePath": ".variations\\VehicleInsuranceData_Vehicle Data_3.json",
         "fileName": "Test Cases\\Apply for Cash Back Rewards Card.xaml"
       },
       {
@@ -195,6 +199,12 @@
         "editingStatus": "Publishable",
         "testCaseId": "5a4da15a-6f19-4c36-a7b9-b2f135216641",
         "fileName": "Test Cases\\Contact UiBank.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8603ab1a-28cf-4c73-b5a7-3a48433f9a2b",
+        "dataVariationFilePath": ".variations\\dataLogin2_Login.json",
+        "fileName": "Apply for Loan.xaml"
       }
     ],
     "modernBehavior": false
@@ -292,7 +302,7 @@
       "output": []
     },
     {
-      "filePath": "Test Cases\\Apply for Loan.xaml",
+      "filePath": "DDT\\Apply for Loan.xaml",
       "uniqueId": "8c8eaee5-c69d-4a74-8671-1dd0e5e0a389",
       "input": [],
       "output": []
@@ -396,5 +406,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }

@@ -30,8 +30,7 @@
     "4c53162b-d205-4f2d-ba6d-292586327bc6": "d185d1cd-10f8-49af-d176-08d8978c4c2c",
     "a661d09c-2f0a-45b2-b070-d0a55b2a694e": "0135d099-7ed2-4a35-d177-08d8978c4c2c",
     "d47670d7-f1d6-4dd7-abb2-d177fc54b704": "f467bbbf-c56b-40e5-d178-08d8978c4c2c",
-    "91d0956b-ad2a-4438-b8c0-ec00d8987de7": "54739b05-ec47-4da3-d179-08d8978c4c2c",
-    "63db059e-8fae-478b-b945-d9ee129e4209": "f57cb06b-705f-4065-d17a-08d8978c4c2c"
+    "91d0956b-ad2a-4438-b8c0-ec00d8987de7": "54739b05-ec47-4da3-d179-08d8978c4c2c"
   },
   "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/",
   "defaultProject": {
