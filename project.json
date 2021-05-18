@@ -205,6 +205,11 @@
         "testCaseId": "8603ab1a-28cf-4c73-b5a7-3a48433f9a2b",
         "dataVariationFilePath": ".variations\\dataLogin2_Login.json",
         "fileName": "Apply for Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0e85aeb6-685a-4457-bb21-a3c12becca49",
+        "fileName": "TestCase.xaml"
       }
     ],
     "modernBehavior": false

@@ -32,10 +32,5 @@
     "d47670d7-f1d6-4dd7-abb2-d177fc54b704": "f467bbbf-c56b-40e5-d178-08d8978c4c2c",
     "91d0956b-ad2a-4438-b8c0-ec00d8987de7": "54739b05-ec47-4da3-d179-08d8978c4c2c"
   },
-  "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/",
-  "defaultProject": {
-    "id": "6deacf3e-6cff-4998-c170-08d89765004b",
-    "name": "UiBank_Demo",
-    "key": "UIBD"
-  }
+  "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/"
 }
