@@ -9,13 +9,13 @@ steps:
 
 - task: UiPathInstallPlatform-preview@2
 
-- task: UiPathTest@2
+- task: UiPathPack@2
   inputs:
-    testTarget: 'TestProject'
-    orchestratorConnection: 'Orchestrator'
-    testProjectPath: 'project.json'
-    folderName: 'UiBank_Demo'
-    testReportDestination: '$(Build.ArtifactStagingDirectory)\Output\result.xml'
-
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.ArtifactStagingDirectory)'
+    outputType: 'Tests'
+    orchestratorConnection: 'staging.uipath.com'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
 
 
