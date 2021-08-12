@@ -22,7 +22,7 @@ steps:
   inputs:
     orchestratorConnection: 'staging.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Thomas Stocker Modern Folder'
+    folderName: 'Thomas Stocker'
     traceLevel: 'Verbose'
 
 
