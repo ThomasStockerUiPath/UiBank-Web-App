@@ -1,0 +1,20 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\VehicleInsuranceData_Vehicle Data_5.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\VehicleInsuranceData_Vehicle Data_3.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\dataLogin2_Login.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\UiBank_Sheet1.json",
+      "dataVariationType": "File"
+    }
+  ]
+}
