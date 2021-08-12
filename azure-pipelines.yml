@@ -9,6 +9,12 @@ steps:
 
 - task: UiPathInstallPlatform-preview@2
 
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      dir
+      echo Hello world
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
