@@ -9,7 +9,7 @@ pool:
 steps:
 - task: UiPathInstallPlatform-preview@2
 
-<  - task: UiPathPack@2
+- task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
     projectJsonPath: 'project.json'
@@ -17,6 +17,7 @@ steps:
     orchestratorConnection: 'staging_default'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Verbose'
+  
 
 - task: UiPathTest@2
   inputs:
