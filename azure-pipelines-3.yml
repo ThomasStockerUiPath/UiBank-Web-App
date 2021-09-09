@@ -13,6 +13,6 @@ steps:
   inputs:
     testTarget: 'TestSet'
     orchestratorConnection: 'DemoOrchestrator'
-    testSet: 'UiBank_Demo'
+    testSet: 'Invoice Processing'
     folderName: 'ThomasStocker_modern_folder'
     testReportDestination: 'output'
