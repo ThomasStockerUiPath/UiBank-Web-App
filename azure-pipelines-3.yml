@@ -16,8 +16,7 @@ steps:
     outputType: 'Tests'
     orchestratorConnection: 'staging_default'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-    traceLevel: 'Verbose'
-    runWorkflowAnalysis: true
+
   
 
 - task: UiPathTest@2
