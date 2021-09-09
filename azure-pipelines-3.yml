@@ -17,6 +17,7 @@ steps:
     orchestratorConnection: 'staging_default'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Verbose'
+    runWorkflowAnalysis: true
   
 
 - task: UiPathTest@2
@@ -35,3 +36,4 @@ steps:
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Thomas Stocker'
     traceLevel: 'Verbose'
+
