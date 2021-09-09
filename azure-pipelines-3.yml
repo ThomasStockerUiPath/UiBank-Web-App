@@ -9,6 +9,15 @@ pool:
 steps:
 - task: UiPathInstallPlatform-preview@2
 
+<  - task: UiPathPack@2
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: 'project.json'
+    outputType: 'Tests'
+    orchestratorConnection: 'staging_default'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
+
 - task: UiPathTest@2
   inputs:
     testTarget: 'TestSet'
@@ -16,3 +25,12 @@ steps:
     testSet: 'Invoice Processing'
     folderName: 'ThomasStocker_modern_folder'
     testReportDestination: 'output'
+
+  
+
+- task: UiPathDeploy@2
+  inputs:
+    orchestratorConnection: 'staging_default'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'Thomas Stocker'
+    traceLevel: 'Verbose'
