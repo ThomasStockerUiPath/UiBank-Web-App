@@ -14,14 +14,21 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: 'project.json'
     outputType: 'Tests'
-    orchestratorConnection: 'staging_default'
+    orchestratorConnection: 'staging.uipath.com'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Verbose'
+
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: 'staging.uipath.com'
+    testSet: 'Activity Coverage Demo'
+    folderName: 'Thomas Stocker Modern Folder'
     
 - task: UiPathDeploy@2
   inputs:
-    orchestratorConnection: 'staging_default'
+    orchestratorConnection: 'staging.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Thomas Stocker'
+    folderName: 'Thomas Stocker Modern Folder'
     traceLevel: 'Verbose'
 
