@@ -23,7 +23,7 @@ steps:
   inputs:
     orchestratorConnection: 'cloud.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Thomas Stocker Modern Folder'
+    folderName: 'Modern Folder'
     entryPoints: 'Main.xaml'
     traceLevel: 'Verbose'
 
