@@ -14,15 +14,16 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: 'project.json'
     outputType: 'Tests'
-    orchestratorConnection: 'staging.uipath.com'
+    orchestratorConnection: 'cloud.uipath.com'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Verbose'
 
     
 - task: UiPathDeploy@2
   inputs:
-    orchestratorConnection: 'staging.uipath.com'
+    orchestratorConnection: 'cloud.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Thomas Stocker Modern Folder'
+    entryPoints: 'Main.xaml'
     traceLevel: 'Verbose'
 
