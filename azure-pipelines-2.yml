@@ -14,14 +14,14 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: 'project.json'
     outputType: 'Tests'
-    orchestratorConnection: 'cloud.uipath.com'
+    orchestratorConnection: 'staging.uipath.com'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Verbose'
 
     
 - task: UiPathDeploy@2
   inputs:
-    orchestratorConnection: 'cloud.uipath.com'
+    orchestratorConnection: 'staging.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Modern Folder'
     entryPoints: 'Main.xaml'
