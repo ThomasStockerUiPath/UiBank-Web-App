@@ -23,7 +23,6 @@ steps:
   inputs:
     orchestratorConnection: 'staging.uipath.com'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Modern Folder'
-    entryPoints: 'Main.xaml'
+    entryPoints: 
     traceLevel: 'Verbose'
 
