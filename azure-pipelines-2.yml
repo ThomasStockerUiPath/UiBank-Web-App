@@ -9,14 +9,14 @@ steps:
 
 - task: UiPathInstallPlatform@2
 
-# - task: UiPathPack@2
-#   inputs:
-#    versionType: 'AutoVersion'
-#    projectJsonPath: 'project.json'
-#    outputType: 'Tests'
-#    orchestratorConnection: 'staging.uipath.com'
-#    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-#    traceLevel: 'Verbose'
+- task: UiPathPack@2
+  inputs:
+   versionType: 'AutoVersion'
+   projectJsonPath: 'project.json'
+   outputType: 'Tests'
+   orchestratorConnection: 'staging.uipath.com'
+   outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+   traceLevel: 'Verbose'
 
 
 # - task: UiPathDeploy@2
@@ -27,11 +27,11 @@ steps:
 #    entryPoints: 'Main.xaml'
 #    traceLevel: 'Verbose'
 
-- task: UiPathTest@2
-  inputs:
-    testTarget: 'TestProject'
-    orchestratorConnection: 'staging.uipath.com'
-    testProjectPath: 'project.json'
-    folderName: 'Modern Folder'
-    testReportDestination: 'Output'
-    attachRobotLogs: true
+# - task: UiPathTest@2
+#   inputs:
+#     testTarget: 'TestProject'
+#     orchestratorConnection: 'staging.uipath.com'
+#     testProjectPath: 'project.json'
+#     folderName: 'Modern Folder'
+#     testReportDestination: 'Output'
+#     attachRobotLogs: true
