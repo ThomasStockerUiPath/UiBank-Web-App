@@ -9,29 +9,44 @@ steps:
 
 - task: UiPathInstallPlatform@2
 
-- task: UiPathPack@2
-  inputs:
-   versionType: 'AutoVersion'
-   projectJsonPath: 'project.json'
-   outputType: 'Tests'
-   orchestratorConnection: 'staging.uipath.com'
-   outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+# - task: UiPathPack@2
+#   inputs:
+#    versionType: 'AutoVersion'
+#    projectJsonPath: 'project.json'
+#    outputType: 'Tests'
+#    orchestratorConnection: 'staging.uipath.com'
+#    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
   
 
 
-- task: UiPathDeploy@2
-  inputs:
-   orchestratorConnection: 'staging.uipath.com'
-   packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-   folderName: 'Modern Folder'
-   entryPoints: 'Main.xaml'
-
-
-# - task: UiPathTest@2
+# - task: UiPathDeploy@2
 #   inputs:
-#     testTarget: 'TestProject'
-#     orchestratorConnection: 'staging.uipath.com'
-#     testProjectPath: 'project.json'
-#     folderName: 'Modern Folder'
-#     testReportDestination: 'Output'
-#     attachRobotLogs: true
+#    orchestratorConnection: 'staging.uipath.com'
+#    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+#    folderName: 'Modern Folder'
+#    entryPoints: 'Main.xaml'
+
+
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'staging.uipath.com'
+    testProjectPath: 'project.json'
+    folderName: 'Modern Folder'
+    testReportDestination: 'Output'
+    attachRobotLogs: true
+
+#- task: UiPathRunJob@2
+#  inputs:
+#    orchestratorConnection: 'DemoServiceConnection'
+#    processName: 'CI.Demo.Process'
+#    folderName: 'Modern Folder'
+#    strategy: 'Specific'
+#    robotsIds: 'Thomas Stocker (laptop-2flmrhn0\thomas stocker)'
+
+#- task: UiPathAssets@2
+#  inputs:
+#    orchestratorConnection: 'DemoServiceConnection'
+#    folderName: 'Modern Folder'
+#    assetActionType: 'Deploy'
+#    csvFile: 'assets.csv'
