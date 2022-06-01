@@ -16,16 +16,16 @@ steps:
    outputType: 'Tests'
    orchestratorConnection: 'staging.uipath.com'
    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-   traceLevel: 'Verbose'
+  
 
 
-# - task: UiPathDeploy@2
-#   inputs:
-#    orchestratorConnection: 'staging.uipath.com'
-#    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-#    folderName: 'Modern Folder'
-#    entryPoints: 'Main.xaml'
-#    traceLevel: 'Verbose'
+- task: UiPathDeploy@2
+  inputs:
+   orchestratorConnection: 'staging.uipath.com'
+   packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+   folderName: 'Modern Folder'
+   entryPoints: 'Main.xaml'
+
 
 # - task: UiPathTest@2
 #   inputs:
